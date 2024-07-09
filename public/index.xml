@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Yuxuan Nai</title>
-    <link>https://example.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Yuxuan Nai</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jul 2024 12:00:00 +0800</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research Experience</title>
-      <link>https://example.com/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 08 Jul 2024 12:00:00 +0800</pubDate>
-      <guid>https://example.com/research/</guid>
+      <guid>http://localhost:1313/research/</guid>
       <description>RL quadruped load adaptation, Haining, China May. 2024&amp;ndash;Today&#xA;Advisor: Prof. Liangjing, Yang (iZJU)&#xA;Quadruped Robotics Go2 can walk only on the joint information of itself (use teacher-student model)&#xA;Use issac_gym and legged_gym as basic platforms to train Go2 in the simulation&#xA;Self-adaptation without knowing the information of loadings&#xA;Still under constructing &amp;hellip;&#xA;Project reproduction, Reaction-Based Motion Planning with Deep Reinforcement Learning, Haining, China Feb. 2024&amp;ndash;Mar. 2024&#xA;Self-Learning, Reproduction&#xA;Connect APF and DDPG together to overcome the shortness of APF</description>
     </item>
     <item>
       <title>Project</title>
-      <link>https://example.com/project/</link>
+      <link>http://localhost:1313/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/</guid>
+      <guid>http://localhost:1313/project/</guid>
       <description>You can view some of my blogs on Chinese Software Developer Network.&#xA;Recent Projects RL quadruped load adaptation Home</description>
     </item>
   </channel>
