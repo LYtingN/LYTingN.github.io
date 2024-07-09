@@ -26,7 +26,7 @@ If you are interested, please send emails to yuxuan.22@intl.zju.edu.cn or yer2@i
 
 - Advanced Control
 
-- Leaening Based Quadruped Robotics Adaptation
+- Learning Based Quadruped Robotics Adaptation
 
 - Robotics Manipulation
 
