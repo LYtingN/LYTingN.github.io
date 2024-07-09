@@ -26,22 +26,25 @@ paginate = 8
   description = " "
   menu_item_separator = " "
   avatar = "photo2.jpg"
+  custom_css = ["css/custom.css"]
   [[params.social]]
     icon = "github"
     name = "Github"
-    url = "https://github.com/gohugoio"
+    url = "https://github.com/LYtingN"
   [[params.social]]
     icon = "twitter"
     name = "Twitter"
-    url = "https://twitter.com/gohugoio"
+    url = "https://x.com/Liyutingnai"
+
+  
 
   # Default theme
   [params.style]
-    darkestColor = "#242930"
-    darkColor = "#353b43"
-    lightColor = "#afbac4"
+    darkestColor = "#737c7b"
+    darkColor = "#74787a"
+    lightColor = "#f1f0ed"
     lightestColor = "#ffffff"
-    primaryColor = "#474b4c"
+    primaryColor = "#cdd1d3"
     selfsetColor = "#57cc8a"
 
   # Green theme
