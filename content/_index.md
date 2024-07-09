@@ -42,9 +42,9 @@ Take a Look at [Project](/project/)
 
 ### Skills
 
-- Tools: Python, Latex, C++ (Beginner), Microcontroller (Beginner), CAD
+- Tools: Git, Python, Latex, C++ (Beginner), Microcontroller (Beginner), CAD
 
-- Control (Keep Learning ...)
+- Advanced Control 
 
 - Reinforcement Learning
 
