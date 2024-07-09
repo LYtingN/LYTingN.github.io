@@ -8,6 +8,8 @@ Hi! Welcome to my academic website！
 
 I am a junior student majoring in Mechanical Engineering at [Zhejiang University](https://www.zju.edu.cn/english/) and [University of Illinois at Urbana-Champaign](https://illinois.edu/index.html).
 
+If you are interested, please send emails to yuxuan.22@intl.zju.edu.cn or yer2@illinois.edu
+
 ### Education
 -  #### University of Illinois at Urbana-Champaign&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep.2022 - May. 2026
 
@@ -33,6 +35,10 @@ I am a junior student majoring in Mechanical Engineering at [Zhejiang University
 ### Research Experience
 
 Take a Look at [Research](/research/)
+
+### Project
+
+Take a Look at [Project](/project/)
 
 ### Skills
 
