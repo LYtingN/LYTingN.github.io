@@ -50,11 +50,12 @@ Take a Look at [Project](/project/)
 
 ### Prize
 
-- Gold Medal, Award on Zhejiang International College Student Innovation Competition & \hfill July 2024
-- Silver Medal, Award on \textit{Challenge Cup} Contest of Zhejiang Province & \hfill May 2024
-- First Prize, Award on The 16th \textit{Dandelion} Entrepreneurship Contest of Zhejiang University & \hfill March 2024
-- Third Prize, Award on \textit{Concrete Canoe Design Competition} of Zhejiang University & \hfill June 2023
-- Second Prize, Award on \textit{Undergraduate Structural Design Competition} of Zhejiang University & \hfill May 2023
+- Gold Medal, Award on Zhejiang International College Student Innovation Competition                  July 2024
+- Silver Medal, Award on Challenge Cup Contest of Zhejiang Province                                   May 2024
+- First Prize, Award on The 16th Dandelion Entrepreneurship Contest of Zhejiang University            March 2024
+- Third Prize, Award on Concrete Canoe Design Competition of Zhejiang University                      June 2023
+- Second Prize, Award on Undergraduate Structural Design Competition of Zhejiang University           May 2023
+
 
 &nbsp;
 
