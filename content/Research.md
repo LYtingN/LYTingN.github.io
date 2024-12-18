@@ -3,20 +3,33 @@ title: "Research Experience"
 date: 2024-07-08T12:00:00+08:00
 draft: false
 ---
+#### RL quadruped load adaptation, Haining, China
+
+Oct. 2024--Today
+
+Advisor: Prof. Naira Hovakimyan (UIUC), Dr. Sheng, Chen
+
+- Quadrotor helilogging control
+
+- Smoothly landing in the end
+
+- Use ROS as platform
 
 #### RL quadruped load adaptation, Haining, China
 
-May. 2024--Today
+May. 2024--Sep. 2024
 
-Advisor: Prof. Liangjing, Yang (iZJU)
+Advisor: Prof. Liangjing, Yang (iZJU), Prof. Hua, Chen (iZJU)
 
 - Quadruped Robotics Go2 can walk only on the joint information of itself (use teacher-student model)
+
+- Go2 can balance loads on its base well
 
 - Use issac_gym and legged_gym as basic platforms to train Go2 in the simulation
 
 - Self-adaptation without knowing the information of loadings
 
-- Still under constructing ...
+- Propose to ICRA(not received yet)
 
 {{< img src="/images/framework.png" alt="framework" width="600" >}}
 
