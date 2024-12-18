@@ -31,7 +31,7 @@ Advisor: Prof. Liangjing, Yang (iZJU), Prof. Hua, Chen (iZJU)
 
 - Propose to ICRA(not received yet)
 
-{{< img src="/images/achitecture.jpg" alt="achitecture" width="600" >}}
+{{< img src="/images/achitecture.jpg" alt="achitecture" width="800" >}}
 
 #### Project reproduction, Reaction-Based Motion Planning with Deep Reinforcement Learning, Haining, China
 

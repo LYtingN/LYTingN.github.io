@@ -48,6 +48,14 @@ Take a Look at [Project](/project/)
 
 - Reinforcement Learning
 
+### Prize
+
+- Gold Medal, Award on Zhejiang International College Student Innovation Competition & \hfill July 2024
+- Silver Medal, Award on \textit{Challenge Cup} Contest of Zhejiang Province & \hfill May 2024
+- First Prize, Award on The 16th \textit{Dandelion} Entrepreneurship Contest of Zhejiang University & \hfill March 2024
+- Third Prize, Award on \textit{Concrete Canoe Design Competition} of Zhejiang University & \hfill June 2023
+- Second Prize, Award on \textit{Undergraduate Structural Design Competition} of Zhejiang University & \hfill May 2023
+
 &nbsp;
 
 &nbsp;
