@@ -20,6 +20,11 @@ paginate = 8
     name = "Research"
     url = "/research/"
     weight = 3
+  [[menu.main]]
+    identifier = "beyond academia"
+    name = "Beyond Academia"
+    url = "/beyond academia/"
+    weight = 4
 
 [params]
   author = "Yuxuan Nai"
