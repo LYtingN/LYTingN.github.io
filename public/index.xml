@@ -13,7 +13,14 @@
       <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 08 Jul 2024 12:00:00 +0800</pubDate>
       <guid>http://localhost:1313/research/</guid>
-      <description>RL quadruped load adaptation, Haining, China May. 2024&amp;ndash;Today&#xA;Advisor: Prof. Liangjing, Yang (iZJU)&#xA;Quadruped Robotics Go2 can walk only on the joint information of itself (use teacher-student model)&#xA;Use issac_gym and legged_gym as basic platforms to train Go2 in the simulation&#xA;Self-adaptation without knowing the information of loadings&#xA;Still under constructing &amp;hellip;&#xA;Project reproduction, Reaction-Based Motion Planning with Deep Reinforcement Learning, Haining, China Feb. 2024&amp;ndash;Mar. 2024&#xA;Self-Learning, Reproduction&#xA;Connect APF and DDPG together to overcome the shortness of APF</description>
+      <description>RL quadruped load adaptation, Haining, China Oct. 2024&amp;ndash;Today&#xA;Advisor: Prof. Naira Hovakimyan (UIUC), Dr. Sheng, Chen&#xA;Quadrotor helilogging control&#xA;Smoothly landing in the end&#xA;Use ROS as platform&#xA;RL quadruped load adaptation, Haining, China May. 2024&amp;ndash;Sep. 2024&#xA;Advisor: Prof. Liangjing, Yang (iZJU), Prof. Hua, Chen (iZJU)&#xA;Quadruped Robotics Go2 can walk only on the joint information of itself (use teacher-student model)&#xA;Go2 can balance loads on its base well&#xA;Use issac_gym and legged_gym as basic platforms to train Go2 in the simulation</description>
+    </item>
+    <item>
+      <title>Beyond Academia</title>
+      <link>http://localhost:1313/beyond-academia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/beyond-academia/</guid>
+      <description>Established a Photography Club Sep. 2023&#xA;Established the first photography club &amp;ndash; Jiguang Student Photography Club in our campus!&#xA;Hold many activities every semster&#xA;Recognized as an Outstanding Student Organization at this year!&#xA;The 19th Asian Para Games Hangzhou Volunteer Participated in the Opening Ceremony of the Asian Games!&#xA;Do a lot of things to help the athletes during the Asian Para Games!&#xA;Volunteered as a Teacher at Wuliang Middle School in Jingdong, Yunnan July.</description>
     </item>
     <item>
       <title>Project</title>
