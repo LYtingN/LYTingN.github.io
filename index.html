@@ -12,15 +12,13 @@
 
   <body>
     <div class="progress-bar"></div>
-    <div class="custom-cursor"></div>
-    <div class="bg-gradient"></div>
+    <div class="custom-cursor" aria-hidden="true"></div>
+    <div class="blob1" aria-hidden="true"></div>
+    <div class="blob2" aria-hidden="true"></div>
+    <div class="blob3" aria-hidden="true"></div>
     <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top">
       <i class="fas fa-arrow-up"></i>
     </button>
-      <div class="blob1"></div>
-      <div class="blob2"></div>
-      <div class="blob3"></div>
-    </div>
     <div class="container">
       <!-- Header -->
       <header class="header">
@@ -93,7 +91,7 @@
             <div class="timeline-content">
               <div class="timeline-header">
                 <strong>Zhejiang University</strong>
-                <span class="period">Expected 05/2026</span>
+                <span class="period">Starting 09/2026</span>
               </div>
               <div class="timeline-detail">Ph.D. in Control Science and Engineering | Advisor: Prof. Hua Chen</div>
             </div>
@@ -119,6 +117,32 @@
       <!-- Research -->
       <section class="section scroll-animate">
         <h2>Research Experience</h2>
+
+        <div class="entry">
+          <div class="entry-header">
+            <strong>UMI Motion Generation for Humanoid Loco-Manipulation</strong>
+            <span class="period">03/2026 – 06/2026</span>
+          </div>
+          <div class="entry-detail">Physical Intelligence Lab, ZJU-UIUC | Advisor: Prof. Hua Chen</div>
+          <ul>
+            <li>Used UMI data to generate full-body motion sequences for G1 from wrist-mounted RGB images alone.</li>
+            <li>Used Flow Matching to integrate motion prior information, enabling zero-shot motion generation.</li>
+            <li>Used WBC and incorporated ResMimic as an additional module to improve hand precision.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <strong>UMI Guided Loco-Manipulation</strong>
+            <span class="period">03/2026 – 06/2026</span>
+          </div>
+          <div class="entry-detail">Physical Intelligence Lab, ZJU-UIUC | Advisor: Prof. Hua Chen</div>
+          <ul>
+            <li>Built a two-layer loco-manipulation framework transferring manipulation skills to a bipedal platform.</li>
+            <li>Trained a DiT Diffusion Policy on UMI data to predict 6D end-effector trajectories from RGB.</li>
+            <li>Trained an RL whole-body controller in Isaac Lab to track SE(3) commands on the bipedal robot.</li>
+          </ul>
+        </div>
 
         <div class="entry">
           <div class="entry-header">
@@ -177,7 +201,7 @@
         <h2>Internship</h2>
         <div class="entry">
           <div class="entry-header">
-            <strong>A3 Humanoid Locomotion</strong>
+            <strong>A3 Humanoid Perceptive Parkour</strong>
             <span class="period">01/2026 – 03/2026</span>
           </div>
           <div class="entry-detail">AGIBOT | Advisor: Taiyu Li</div>
@@ -259,18 +283,7 @@
 
       <footer>
         <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7iYh4LKOYOaPH6wP4zIrQ_VfETbyXkxtPjbT1SWxzLs&cl=ffffff&w=a"></script>
-        <style>
-          #mapmyvisitors_map {
-            display: flex;
-            justify-content: center;
-            margin: 30px 0 10px;
-          }
-          #mapmyvisitors_map > * {
-            width: 50px !important;
-            height: auto !important;
-          }
-        </style>
-        <p>Last updated: April 2026</p>
+        <p>Last updated: May 2026</p>
       </footer>
     </div>
 
