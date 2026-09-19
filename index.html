@@ -1,399 +1,185 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <title>Yuxuan Nai</title>
     <meta name="author" content="Yuxuan Nai">
+    <meta name="description" content="Yuxuan Nai's academic website — humanoid loco-manipulation, bridging high-level behavior cloning with low-level dynamics.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
-
   <body>
-    <div class="progress-bar"></div>
-    <div class="custom-cursor" aria-hidden="true"></div>
-    <div class="blob1" aria-hidden="true"></div>
-    <div class="blob2" aria-hidden="true"></div>
-    <div class="blob3" aria-hidden="true"></div>
-    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-    <div class="container">
-      <!-- Header -->
-      <header class="header">
-        <div class="header-left">
-          <h1 class="name"><span class="typewriter" data-text="Yuxuan Nai"></span></h1>
-          <p class="intro">
-            Hi there! Welcome to my academic website.
+    <main class="container">
+      <header class="profile">
+        <div>
+          <h1>Yuxuan Nai</h1>
+          <p class="slogan">Humanoids bear witness to true intelligence.</p>
+          <p>
+            I am a first-year Ph.D. student in the College of Control Science and Engineering at
+            <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, advised by
+            <a href="https://zjui.intl.zju.edu.cn/en/node/783">Prof. Liangjing Yang</a>
+            and co-advised by <a href="https://zyliatzju.github.io/">Prof. Zhongyu Li</a>
+            at The Chinese University of Hong Kong (CUHK).
+            My collaborating advisor is <a href="https://person.zju.edu.cn/xu">Prof. Chao Xu</a>
+            at <a href="https://zju-fast-lab.github.io/">ZJU FAST-Lab</a>.
           </p>
           <p>
-            I am a senior student majoring in Mechanical Engineering at
-            <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> and
-            <a href="https://illinois.edu/index.html" target="_blank">University of Illinois at Urbana-Champaign</a>.
-            <br>GPA: 3.97/4.3 (ZJU) & 3.92/4.0 (UIUC).
+            My former Ph.D. advisor was <a href="https://scholar.google.com/citations?hl=en&amp;user=sFTLO0EAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Hua Chen</a>, now Full-Time CTO at
+            <a href="https://www.limxdynamics.com/en/about">LimX Dynamics</a>.
           </p>
-          <p>
-            My research interests include
-            <span class="tag">Deep Reinforcement Learning</span>
-            <span class="tag">Tactile Based Manipulation</span>
-            <span class="tag">Legged Locomotion</span>.
-          </p>
-          <!-- <p>
-            Currently, I am doing tactile based manipulation under the guidance of
-            <a href="https://siebelschool.illinois.edu/about/people/faculty/yuanwz" target="_blank">Prof. Wenzhen Yuan</a> at
-            <a href="https://robotouchlab.com/" target="_blank">RoboTouch Lab</a> in UIUC.
-          </p> -->
-          <p class="social">
-            <a href="mailto:yer2@illinois.edu" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="data/yuxuan_cv.pdf" title="CV"><i class="fas fa-file-alt"></i></a>
-            <a href="https://github.com/LYtingN" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://x.com/Liyutingnai" target="_blank" title="Twitter"><i class="fab fa-x-twitter"></i></a>
-          </p>
+          <p>I am currently an intern at <a href="https://www.mondorobotics.com/">Mondo Robotics</a>,
+            mentored by <a href="https://shuoyangrobotics.github.io/">Shuo Yang</a>.</p>
+          <p>My research interests lie in humanoid loco-manipulation: how to bridge high-level behavior cloning (BC) with low-level dynamics.</p>
         </div>
-        <div class="header-right">
-          <div class="toolbar">
-            <button class="theme-toggle" onclick="toggleTheme()"></button>
+        <div class="profile-photo">
+          <div id="cat-controls" class="cat-controls" hidden>
+            <button id="cat-toggle" class="cat-toggle" type="button" aria-pressed="true" aria-describedby="cat-intro" title="My cat Xixi (希希) — hope in Chinese." hidden>cat on</button>
+            <p id="cat-intro">Xixi<span lang="zh">（希希）</span> — “hope” in Chinese.</p>
           </div>
-          <div class="profile-tilt-wrapper">
-            <img src="images/profile.jpg" alt="profile photo" class="profile-tilt">
-            <div class="profile-glint"></div>
-          </div>
+          <img class="portrait" src="images/profile.jpg" alt="Yuxuan Nai" width="200" height="200">
+          <nav class="contact-links" aria-label="Contact and profiles">
+            <a href="mailto:yer2@illinois.edu">Email</a>
+            <span aria-hidden="true">/</span>
+            <a href="data/yuxuan_cv.pdf">CV</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://github.com/LYtingN">GitHub</a>
+            <span aria-hidden="true">/</span>
+            <a href="https://x.com/Liyutingnai">X</a>
+          </nav>
         </div>
       </header>
 
-      <!-- Education -->
-      <section class="section scroll-animate">
-        <h2>Education</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <strong>ZJU-UIUC Institute</strong>
-                <span class="period">09/2022 – Present</span>
-              </div>
-              <div class="timeline-detail">B.E. in Mechanical Engineering | GPA: 3.97/4.3</div>
+      <nav class="institution-strip" aria-label="Education, advising, and internship institutions">
+        <a href="https://zjui.intl.zju.edu.cn/"><img class="zjui-logo" src="images/institutions/zjui-color.jpg" alt="ZJU-UIUC Institute" width="1280" height="1280"></a>
+        <a href="https://www.zju.edu.cn/english/"><img src="images/institutions/zju.svg" alt="Zhejiang University" width="84" height="84"></a>
+        <a href="https://illinois.edu/"><img src="images/institutions/uiuc.png" alt="University of Illinois Urbana-Champaign" width="80" height="80"></a>
+        <a href="https://www.cuhk.edu.hk/english/index.html"><img src="images/institutions/cuhk.png" alt="The Chinese University of Hong Kong" width="84" height="84"></a>
+        <a href="https://www.agibot.com/"><img class="agibot-logo" src="images/institutions/agibot.png" alt="AGIBOT" width="243" height="58"></a>
+        <a href="https://www.mondorobotics.com/"><img class="mondo-logo" src="images/institutions/mondo.svg" alt="Mondo Robotics" width="124" height="28"></a>
+      </nav>
+
+      <section aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <div class="education-list">
+          <article class="education-row">
+            <div class="institution-image">
+              <img class="zjui-logo" src="images/institutions/zjui-color.jpg" alt="ZJU-UIUC Institute logo" width="1280" height="1280" loading="lazy">
             </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <strong>University of Illinois at Urbana-Champaign</strong>
-                <span class="period">09/2024 – 09/2025</span>
-              </div>
-              <div class="timeline-detail">B.E. in Mechanical Engineering | GPA: 3.92/4.0</div>
+            <div>
+              <h3><a href="https://zjui.intl.zju.edu.cn/en">ZJU-UIUC Institute</a></h3>
+              <p>B.E. in Mechanical Engineering · GPA: 3.97/4.3</p>
+              <p class="meta">09/2022 – Present</p>
             </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <strong>Zhejiang University</strong>
-                <span class="period">Starting 09/2026</span>
-              </div>
-              <div class="timeline-detail">Ph.D. in Control Science and Engineering | Advisor: Prof. Hua Chen</div>
+          </article>
+          <article class="education-row">
+            <div class="institution-image">
+              <img src="images/institutions/uiuc.png" alt="University of Illinois logo" width="80" height="80" loading="lazy">
             </div>
-          </div>
+            <div>
+              <h3><a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a></h3>
+              <p>B.E. in Mechanical Engineering · GPA: 3.92/4.0</p>
+              <p class="meta">09/2024 – 09/2025</p>
+            </div>
+          </article>
+          <article class="education-row">
+            <div class="institution-image doctoral-institutions">
+              <a href="https://www.zju.edu.cn/english/"><img src="images/institutions/zju.svg" alt="Zhejiang University logo" width="72" height="72" loading="lazy"></a>
+              <a href="https://www.cuhk.edu.hk/english/index.html"><img src="images/institutions/cuhk.png" alt="The Chinese University of Hong Kong logo" width="72" height="72" loading="lazy"></a>
+            </div>
+            <div>
+              <h3><a href="https://www.zju.edu.cn/english/">Zhejiang University</a> &amp; <a href="https://www.cuhk.edu.hk/english/index.html">CUHK</a></h3>
+              <p>Ph.D. in Control Science and Engineering</p>
+              <p class="meta">09/2026 – Present · Advisor: <a href="https://zjui.intl.zju.edu.cn/en/node/783">Prof. Liangjing Yang</a></p>
+              <p class="meta">Co-advisor: <a href="https://zyliatzju.github.io/">Prof. Zhongyu Li</a> (CUHK)</p>
+            </div>
+          </article>
         </div>
       </section>
 
-      <!-- Publications -->
-      <section class="section scroll-animate">
-        <h2>Publications</h2>
-        <div class="pub">
-          <strong>Beyond Robustness: Learning Unknown Dynamic Load Adaptation for Quadruped Locomotion on Rough Terrain</strong><br>
-          Leixin Chang, <strong>Yuxuan Nai</strong>, Hua Chen*, Liangjing Yang*<br>
-          <em>ICRA</em>, 2025
-        </div>
-        <div class="pub">
-          <strong>Bilevel Optimization of Heli-Logging Assignment for a Quadrotor with Cable-Suspended Payload</strong><br>
-          <strong>Yuxuan Nai</strong>, Ding Jiang, Ziyin Han, Chengyu Yang, Sheng Cheng*, Naira Hovakimyan*<br>
-          <em>IEEE Robotics and Automation Letters (RAL)</em>, 2025 (Under Review)
-        </div>
+      <section aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <article class="publication publication-with-media">
+          <a class="publication-media" href="https://wholebody-umi.github.io/" aria-label="Whole-Body UMI project website">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="images/publications/wholebody-umi.jpg">
+              <img src="images/publications/wholebody-umi.gif" alt="Whole-Body UMI human demonstrations, simulated motions, and humanoid manipulation results" width="480" height="270" loading="lazy">
+            </picture>
+          </a>
+          <div>
+            <h3><a href="https://wholebody-umi.github.io/">Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation</a></h3>
+            <p><strong>Yuxuan Nai</strong>, Leixin Chang, Liangjing Yang, Shuo Yang, Zhongyu Li</p>
+            <p class="meta"><em>ICRA 2027</em> · Under Review</p>
+            <p class="publication-links"><a href="https://wholebody-umi.github.io/">Project</a></p>
+          </div>
+        </article>
+        <article class="publication">
+          <h3>Bilevel Optimization of Heli-Logging Assignment for a Quadrotor with Cable-Suspended Payload</h3>
+          <p><strong>Yuxuan Nai</strong>, Ding Jiang, Ziyin Han, Chengyu Yang, Sheng Cheng*, Naira Hovakimyan*</p>
+          <p class="meta"><a href="https://www.worldrobotconference.com/en/sara/contributions/callforpaper/"><em>WRC Symposium on Advanced Robotics and Automation (WRC SARA)</em></a>, 2026 · Accepted</p>
+          <p class="meta">Undergraduate research project · UIUC</p>
+        </article>
+        <article class="publication publication-with-media">
+          <a class="publication-media" href="https://leixinjonaschang.github.io/leggedloadadapt.github.io/" aria-label="Beyond Robustness project website">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="images/publications/beyond-robustness.png">
+              <img src="images/publications/beyond-robustness.gif" alt="Quadruped simulation demonstrating dynamic load adaptation on rough terrain" width="360" height="203" loading="lazy">
+            </picture>
+          </a>
+          <div>
+            <h3><a href="https://leixinjonaschang.github.io/leggedloadadapt.github.io/">Beyond Robustness: Learning Unknown Dynamic Load Adaptation for Quadruped Locomotion on Rough Terrain</a></h3>
+            <p>Leixin Chang, <strong>Yuxuan Nai</strong>, Hua Chen*, Liangjing Yang*</p>
+            <p class="meta"><em>ICRA</em>, 2025</p>
+            <p class="publication-links"><a href="https://leixinjonaschang.github.io/leggedloadadapt.github.io/">Project</a> / <a href="https://arxiv.org/abs/2507.07825">Paper</a></p>
+          </div>
+        </article>
       </section>
 
-      <!-- Research -->
-      <section class="section scroll-animate">
-        <h2>Research Experience</h2>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>UMI Motion Generation for Humanoid Loco-Manipulation</strong>
-            <span class="period">03/2026 – 06/2026</span>
+      <section aria-labelledby="internship-heading">
+        <h2 id="internship-heading">Internship</h2>
+        <article class="internship-row">
+          <a href="https://www.mondorobotics.com/" class="company-link"><img src="images/institutions/mondo.svg" alt="Mondo Robotics" width="146" height="33" loading="lazy"></a>
+          <div>
+            <h3><a href="https://www.mondorobotics.com/">Mondo Robotics</a></h3>
+            <p class="meta">Intern · 07/2026 – Present</p>
+            <p class="meta">Mentor: <a href="https://shuoyangrobotics.github.io/">Shuo Yang</a></p>
           </div>
-          <div class="entry-detail">Physical Intelligence Lab, ZJU-UIUC | Advisor: Prof. Hua Chen</div>
-          <ul>
-            <li>Used UMI data to generate full-body motion sequences for G1 from wrist-mounted RGB images alone.</li>
-            <li>Used Flow Matching to integrate motion prior information, enabling zero-shot motion generation.</li>
-            <li>Used WBC and incorporated ResMimic as an additional module to improve hand precision.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>UMI Guided Loco-Manipulation</strong>
-            <span class="period">03/2026 – 06/2026</span>
+        </article>
+        <article class="internship-row">
+          <a href="https://www.agibot.com/" class="company-link"><img src="images/institutions/agibot.png" alt="AGIBOT" width="146" height="35" loading="lazy"></a>
+          <div>
+            <h3>A3 Humanoid Perceptive Parkour</h3>
+            <p class="meta">Intern · 01/2026 – 03/2026</p>
+            <p class="meta">Advisor: Taiyu Li</p>
+            <p>Unified locomotion policy and terrain-aware parkour for the A3 humanoid.</p>
           </div>
-          <div class="entry-detail">Physical Intelligence Lab, ZJU-UIUC | Advisor: Prof. Hua Chen</div>
-          <ul>
-            <li>Built a two-layer loco-manipulation framework transferring manipulation skills to a bipedal platform.</li>
-            <li>Trained a DiT Diffusion Policy on UMI data to predict 6D end-effector trajectories from RGB.</li>
-            <li>Trained an RL whole-body controller in Isaac Lab to track SE(3) commands on the bipedal robot.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>Learning Based Stable Pose Selection with Tactile Modality</strong>
-            <span class="period">05/2025 – 09/2025</span>
-          </div>
-          <div class="entry-detail">RoboTouch Lab, UIUC | Advisor: Prof. Wenzhen Yuan</div>
-          <ul>
-            <li>Realized stable pose selection via a tactile-feedback-driven learning-based planner.</li>
-            <li>Enabled stability prediction of poses by training a model with data collected on the Taccel simulator.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>Bilevel Optimization of Quadrotor Payload System</strong>
-            <span class="period">10/2024 – 10/2025</span>
-          </div>
-          <div class="entry-detail">AVIATE Center, UIUC | Advisor: Dr. Sheng Cheng, Prof. Naira Hovakimyan</div>
-          <ul>
-            <li>Developed minimum-snap trajectory with flatness for smooth transitions between taut and slack cable states.</li>
-            <li>Improved trajectory fidelity to real maneuvers via bilevel optimization of release parameters.</li>
-            <li>Validated control strategies through simulation testing on Gazebo.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>RL for Legged Unknown Dynamic Load Adaptation</strong>
-            <span class="period">05/2024 – 07/2024</span>
-          </div>
-          <div class="entry-detail">Physical Intelligence Lab, ZJU-UIUC | Advisor: Prof. Hua Chen, Prof. Liangjing Yang</div>
-          <ul>
-            <li>Facilitated blind walking by implementing a teacher-student reinforcement learning framework.</li>
-            <li>Enabled quadruped locomotion under unknown payloads with a proprioception-based payload estimator.</li>
-            <li>Validated through MuJoCo simulations and sim-to-real deployment.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>Unmanned Mining Truck Route Planning</strong>
-            <span class="period">05/2023 – 05/2024</span>
-          </div>
-          <div class="entry-detail">Academic Training SRTP, ZJU | Advisor: Prof. Jian Chen</div>
-          <ul>
-            <li>Simplified route planning for unmanned mining trucks, overcoming traditional method limitations.</li>
-            <li>Developed a two-step strategy: front-end path planning and back-end trajectory optimization.</li>
-            <li>Used Hard-Constraints and Minimum-Snap to ensure safe, dynamically feasible paths.</li>
-          </ul>
-        </div>
+        </article>
       </section>
 
-      <!-- Internship -->
-      <section class="section scroll-animate">
-        <h2>Internship</h2>
-        <div class="entry">
-          <div class="entry-header">
-            <strong>A3 Humanoid Perceptive Parkour</strong>
-            <span class="period">01/2026 – 03/2026</span>
-          </div>
-          <div class="entry-detail">AGIBOT | Advisor: Taiyu Li</div>
-          <ul>
-            <li>Developed a unified policy for full-scale A3 humanoid locomotion.</li>
-            <li>Trained a single policy for multiple walking-base locomotion tasks.</li>
-            <li>Implemented perceptive parkour for terrain-aware agile locomotion.</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section class="section scroll-animate">
-        <h2>Projects</h2>
-        <div class="entry">
-          <div class="entry-header">
-            <strong>Three-axis Robotic Arm Control for Trajectory Following</strong>
-            <span class="period">01/2025 – 05/2025</span>
-          </div>
-          <div class="entry-detail">Course Project from Robot Dynamics and Control (ME446, A+) | UIUC</div>
-          <ul>
-            <li>Designed trajectories to accomplish multiple tasks—egg pressing, obstacle avoidance, and peg-in-hole insertion.</li>
-            <li>Developed a PID controller with a feedforward term for enhanced performance.</li>
-            <li>Validated on a CRS robotic arm, achieving smooth and rapid task execution.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>Identification of Informative COVID-19 English Tweets</strong>
-            <span class="period">01/2025 – 05/2025</span>
-          </div>
-          <div class="entry-detail">Course Project from Programming Methods for Machine Learning (ECE364, A+) | UIUC</div>
-          <ul>
-            <li>Designed a classification network to identify informative tweets.</li>
-            <li>Explored and evaluated various training methods for the network.</li>
-            <li>Achieved 0.89 accuracy, ranking 3rd overall in the competition.</li>
-          </ul>
-        </div>
-
-        <div class="entry">
-          <div class="entry-header">
-            <strong>Reaction-Based Motion Planning with Deep Reinforcement Learning</strong>
-            <span class="period">02/2024 – 03/2024</span>
-          </div>
-          <div class="entry-detail">Project Reproduction | ZJU-UIUC</div>
-          <ul>
-            <li>Reproduced a project integrating Artificial Potential Field (APF) with DDPG to mitigate local minima issues.</li>
-            <li>Developed advanced motion planning leveraging DDPG's continuous actions.</li>
-            <li>Validated approach in ROS Gazebo simulations, achieving robust navigation with dynamic obstacles.</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Honors -->
-      <section class="section scroll-animate">
-        <h2>Honors and Awards</h2>
-        <ul class="compact-list">
-          <li>China National Scholarship (10/2025)</li>
-          <li>First Prize, Zhejiang University Scholarship (10/2025)</li>
-          <li>Second Prize, Zhejiang University Scholarship (10/2024)</li>
-          <!-- <li>Gold Medal, Zhejiang International College Student Innovation Competition (07/2024)</li> -->
-          <!-- <li>Silver Medal, Challenge Cup Contest of Zhejiang Province (05/2024)</li> -->
-          <!-- <li>First Prize, The 16th Dandelion Entrepreneurship Contest of Zhejiang University (03/2024)</li> -->
-          <li>Third Prize, Concrete Canoe Design Competition of Zhejiang University (06/2023)</li>
-          <li>Second Prize, Undergraduate Structural Design Competition of Zhejiang University (05/2023)</li>
+      <section aria-labelledby="honors-heading">
+        <h2 id="honors-heading">Honors and Awards</h2>
+        <ul class="honors-list">
+          <li><time datetime="2025-10">10/2025</time><span>China National Scholarship</span></li>
+          <li><time datetime="2025-10">10/2025</time><span>First Prize, Zhejiang University Scholarship</span></li>
+          <li><time datetime="2024-10">10/2024</time><span>Second Prize, Zhejiang University Scholarship</span></li>
+          <li><time datetime="2023-06">06/2023</time><span>Third Prize, Concrete Canoe Design Competition of Zhejiang University</span></li>
+          <li><time datetime="2023-05">05/2023</time><span>Second Prize, Undergraduate Structural Design Competition of Zhejiang University</span></li>
         </ul>
       </section>
 
-      <!-- Leadership -->
-      <section class="section scroll-animate">
-        <h2>Leadership</h2>
-        <ul class="compact-list">
-          <!-- <li><strong>SRTP Program Leader</strong> | 05/2023 – 05/2024, ZJU<br>Led an undergraduate research team focused on autonomous path planning for unmanned vehicles.</li> -->
-          <!-- <li><strong>Summer Research Program Leader</strong> | 05/2023 – 08/2023, ZJU<br>Led an undergraduate team researching path planning integrated with reinforcement learning.</li> -->
-          <li><strong>Photography Club Leader</strong> | 08/2023 – 08/2024, ZJU-UIUC<br>Found the first photography club at ZJU-UIUC and ran the club as a leader.</li>
-        </ul>
+      <section aria-labelledby="leadership-heading">
+        <h2 id="leadership-heading">Leadership</h2>
+        <h3>Photography Club Leader · ZJU-UIUC</h3>
+        <p class="meta">08/2023 – 08/2024</p>
+        <p>Founded and led the institute's first photography club.</p>
       </section>
 
       <footer>
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=7iYh4LKOYOaPH6wP4zIrQ_VfETbyXkxtPjbT1SWxzLs&cl=ffffff&w=a"></script>
-        <p>Last updated: May 2026</p>
+        <script async id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=7iYh4LKOYOaPH6wP4zIrQ_VfETbyXkxtPjbT1SWxzLs&amp;cl=ffffff&amp;w=a"></script>
+        <p>Last updated: September 2026</p>
       </footer>
-    </div>
-
-    <script>
-      // Scroll-triggered animations
-
-      // Reading progress bar
-      const progressBar = document.querySelector('.progress-bar');
-      window.addEventListener('scroll', () => {
-        const scrollTop = window.scrollY;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-        progressBar.style.width = progress + '%';
-      });
-
-      // Typewriter effect
-      const typewriterEl = document.querySelector('.typewriter');
-      if (typewriterEl) {
-        const text = typewriterEl.dataset.text;
-        let i = 0;
-        typewriterEl.textContent = '';
-        const type = () => {
-          if (i < text.length) {
-            typewriterEl.textContent += text.charAt(i);
-            i++;
-            setTimeout(type, 100);
-          } else {
-            typewriterEl.classList.add('typing-done');
-          }
-        };
-        setTimeout(type, 600);
-      }
-
-      // Custom cursor
-      const cursor = document.querySelector('.custom-cursor');
-      if (cursor) {
-        document.addEventListener('mousemove', (e) => {
-          cursor.style.left = e.clientX + 'px';
-          cursor.style.top = e.clientY + 'px';
-        });
-
-        const hoverTargets = document.querySelectorAll('a, button, .tag, .pub, .entry, .timeline-item');
-        hoverTargets.forEach(el => {
-          el.addEventListener('mouseenter', () => cursor.classList.add('hovering'));
-          el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
-        });
-      }
-
-      // Back to top button
-      const backToTop = document.querySelector('.back-to-top');
-      if (backToTop) {
-        window.addEventListener('scroll', () => {
-          if (window.scrollY > 400) {
-            backToTop.classList.add('visible');
-          } else {
-            backToTop.classList.remove('visible');
-          }
-        });
-      }
-      const scrollAnims = document.querySelectorAll('.scroll-animate');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, index) => {
-          if (entry.isIntersecting) {
-            setTimeout(() => {
-              entry.target.classList.add('visible');
-            }, index * 80);
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
-      scrollAnims.forEach(el => observer.observe(el));
-
-      // 3D Tilt effect on profile image
-      const profileImg = document.querySelector('.profile-tilt');
-      const wrapper = document.querySelector('.profile-tilt-wrapper');
-
-      wrapper.addEventListener('mousemove', (e) => {
-        const rect = wrapper.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        const centerX = rect.width / 2;
-        const centerY = rect.height / 2;
-        const rotateX = (y - centerY) / 15;
-        const rotateY = (centerX - x) / 15;
-
-        profileImg.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.03)`;
-        profileImg.style.boxShadow = `${(centerX - x) / 5}px ${(centerY - y) / 5}px 20px rgba(0,0,0,0.15)`;
-      });
-
-      wrapper.addEventListener('mouseleave', () => {
-        profileImg.style.transform = 'perspective(800px) rotateX(0) rotateY(0) scale(1)';
-        profileImg.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
-      });
-
-      function toggleTheme() {
-        const body = document.body;
-        if (body.classList.contains('dark')) {
-          body.classList.remove('dark');
-          localStorage.setItem('theme', 'light');
-        } else {
-          body.classList.add('dark');
-          localStorage.setItem('theme', 'dark');
-        }
-      }
-
-      const savedTheme = localStorage.getItem('theme');
-      if (savedTheme === 'dark') {
-        document.body.classList.add('dark');
-      }
-    </script>
+    </main>
+    <canvas id="page-cat" class="page-cat" width="64" height="64" aria-hidden="true" hidden></canvas>
+    <script src="scripts/page-cat.js" defer></script>
   </body>
 </html>
