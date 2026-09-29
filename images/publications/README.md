@@ -20,3 +20,10 @@ modification when visitors prefer reduced motion.
 - Original video: https://wholebody-umi.github.io/static/videos/hero-montage.mp4?v=light1
 
 Retrieved September 19, 2026. The image belongs to the project's authors.
+
+`bipedalwbc.jpg` is a 720 px wide copy of the BipedalWBC project's teaser.
+
+- Project: https://wholebodyrobotics.github.io/BipedalWBC/
+- Image: https://wholebodyrobotics.github.io/BipedalWBC/static/images/teaser.jpg
+
+Retrieved September 29, 2026. The image belongs to the project's authors.
