@@ -27,3 +27,7 @@ Retrieved September 19, 2026. The image belongs to the project's authors.
 - Image: https://wholebodyrobotics.github.io/BipedalWBC/static/images/teaser.jpg
 
 Retrieved September 29, 2026. The image belongs to the project's authors.
+
+`quadrotor.gif` is a 4.8-second loop from the user's `B-467.gif`, resized to
+480 px wide at 10 fps. `quadrotor.jpg` is a still frame from 3.7 seconds,
+served when visitors prefer reduced motion.

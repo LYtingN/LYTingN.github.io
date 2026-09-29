@@ -87,6 +87,7 @@ section { margin-top: 44px; }
 .doctoral-institutions a { flex: 1; min-width: 0; max-width: 72px; }
 .doctoral-institutions img { width: 100%; height: auto; }
 .publication + .publication { margin-top: 24px; }
+.publication-legend { margin: -12px 0 24px; }
 .publication-with-media { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 28px; align-items: center; }
 .publication-media { display: block; }
 .publication-media img { display: block; width: 100%; height: auto; }
